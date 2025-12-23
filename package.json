@@ -1,0 +1,23 @@
+{
+  "name": "react-superform-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A monorepo for react-superform library and marketing site",
+  "scripts": {
+    "dev": "pnpm --filter marketing dev",
+    "build": "pnpm -r build",
+    "build:ui": "pnpm --filter @react-superform/ui build",
+    "build:marketing": "pnpm --filter marketing build"
+  },
+  "keywords": [
+    "react",
+    "forms",
+    "components",
+    "monorepo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
